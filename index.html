@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascension Honda - Meet John Borg</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom Styles */
+        header {
+            background: url('car.jpg') no-repeat center center/cover;
+            background-blend-mode: multiply;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        header h1 {
+            font-size: 2.5rem; /* Adjust size as needed */
+            animation: fadeIn 2s ease-in-out;
+        }
+        header p {
+            font-size: 1.2rem;
+            animation: fadeIn 3s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translatey(20px); }
+            to { opacity: 1; transform: translatey(0); }
+        }
+
+        .section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .card {
+            border: 1px solid #e2e8f0;
+            border-radius: 0.5rem;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card p {
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        /* Customizing colors to fit Ascension Honda's branding */
+        body {
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #003366; /* Deep blue, adjust based on actual branding */
+            color: #ffffff;
+        }
+
+        .bg-custom-light {
+            background-color: #f0f4f8; /* Light gray background for sections */
+        }
+
+        footer {
+            background-color: #002244; /* Darker blue for footer */
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header class="text-center p-6">
+        <h1>Welcome to Honda Ascension</h1>
+        <p>Meet John Borg - Your Trusted Car Salesman</p>
+    </header>
+    
+
+    <section id="about" class="bg-white py-10 px-5 md:px-20">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2">
+                <img src="Untitled.png" alt="Your Name" class="rounded-lg shadow-xl w-64 h-64 object-cover" style="width: 250px; height: 250px;">
+            </div>
+            <div class="md:w-1/2 md:pl-12">
+                <h2 class="text-2xl font-semibold mb-2">About Me</h2>
+                <p class="text-gray-600 mb-4">Welcome! My name is John Borg, your dedicated car advisor at Ascension Honda. With a passion for automotive excellence and a commitment to outstanding customer service, I'm here to assist you in finding the perfect vehicle that fits your lifestyle and needs.</p>
+                <ul class="list-none space-y-2">
+                    <li class="flex items-center">
+                        <svg class="h-6 w-6 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        Expert advice and personalized service
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="h-6 w-6 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h10m-7 4h7"></path></svg>
+                        Detailed knowledge of all models
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="h-6 w-6 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Committed to finding your perfect car
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="booking" class="my-5 p-5 bg-custom-light">
+        <h2>Book an Appointment</h2>
+        <div id="schedule-form">
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+            <div class="calendly-inline-widget" data-url="https://calendly.com/john-borg237/30min" style="min-width:320px;height:630px;"></div>
+        </div>
+    </section>
+
+    <section id="showroom" class="my-5 p-5 bg-white">
+        <h2>Our Cars</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- Example car card -->
+            <div class="card">
+                <img src="car.jpg" alt="[Car Model]">
+                <p>[Car Model Description]</p>
+            </div>
+            <div class="card">
+                <img src="car.jpg" alt="[Car Model]">
+                <p>[Car Model Description]</p>
+            </div>
+            <div class="card">
+                <img src="car.jpg" alt="[Car Model]">
+                <p>[Car Model Description]</p>
+            </div>
+            <!-- Additional car cards as needed -->
+        </div>
+    </section>
+
+    <footer class="text-center p-6">
+        <p>Contact us: (225)302-0512 | John.Borg237@gmail.com</p>
+    </footer>
+    
+</body>
+</html>
