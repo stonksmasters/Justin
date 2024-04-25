@@ -1,0 +1,68 @@
+[
+    {
+        "year": 2012,
+        "miles": 72000,
+        "images": [
+            "/cars/Corvette.JPG",
+            "/cars/CorvetteSide.JPG"
+        ],
+        "model": "Corvette",
+        "type": "Sports Car",
+        "color": "White"
+    },
+    {
+        "year": 2024,
+        "miles": "<1000",
+        "images": [
+            "/cars/CRV (2).JPG",
+            "/cars/CRV (3).JPG"
+        ],
+        "model": "Honda CRV",
+        "type": "Compact Crossover SUV",
+        "color": "Black, Sonic Gray Pearl"
+    },
+    {
+        "year": 2019,
+        "miles": 50000,
+        "images": [
+            "/cars/HondaCivic1.JPG",
+            "/cars/HondaCivic2.JPG"  
+        ],
+        "model": "Honda Civic",
+        "type": "Sedan",
+        "color": "Blue"
+    },
+    {
+        "year": 2020,
+        "miles": 61000,
+        "images": [
+            "/cars/TacomaFront.JPG",
+            "/cars/TacomaSide1.JPG"
+        ],
+        "model": "Toyota Tacoma",
+        "type": "Truck",
+        "color": "Red"
+    },
+    {
+        "year": 2021,
+        "miles": 22000,
+        "images": [
+            "/cars/TacomaBlack.JPG",
+            "/cars/TacomaBlackSide.JPG"
+        ],
+        "model": "Toyota Tacoma",
+        "type": "Truck",
+        "color": "Black"
+    },
+    {
+        "year": 2020,
+        "miles": 61000,
+        "images": [
+            "/cars/TacomaFront (3).JPG",
+            "/cars/TacomaBack (2).JPG"
+        ],
+        "model": "Nissan Frontier",
+        "type": "Truck",
+        "color": "White"
+    }
+]
