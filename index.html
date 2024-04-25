@@ -101,6 +101,55 @@
 .img-animate {
     animation: slideInFromLeft 1s ease-out forwards; /* Adjust timing as necessary */
 }
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background-size: cover; /* Cover the entire space of the div */
+    background-position: center; /* Center the background image */
+    color: white; /* Text color */
+}
+
+/* Hero Text Container for better text management */
+.hero .text-center {
+    max-width: 600px; /* Max width for the text */
+    padding: 20px; /* Padding around the text */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+/* Hero Headings */
+.hero h1 {
+    font-size: 2.5rem; /* Larger text for the main heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Hero Paragraphs */
+.hero p {
+    font-size: 1.2rem; /* Comfortable reading size */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Button Styles */
+.hero a {
+    display: inline-block; /* Allows setting padding and margins */
+    background-color: #007BFF; /* Primary button color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold font for better visibility */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover Effect for Button */
+.hero a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
     </style>
 </head>
 <body>
@@ -135,7 +184,15 @@
             </div>
         </div>
     </section>
-    
+    <section>
+    <div class="hero bg-cover bg-center h-screen" style="background-image: url('/cars/CRV.JPG');">
+        <div class="text-center text-white">
+            <h1>Welcome to Our Honda Dealership</h1>
+            <p>Explore our wide range of Honda vehicles and find your perfect car today.</p>
+            <a href="BestCars.html" class="mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Explore Honda's Top Models</a>
+        </div>
+    </div>
+    </section>
     
 
     <section id="booking" class="my-5 p-5 bg-custom-light">
@@ -171,68 +228,72 @@
             .catch(error => console.error('Error loading car data:', error));
         
             function createCarCard(car) {
-                const card = document.createElement('div');
-                card.className = 'card border rounded-lg overflow-hidden shadow-lg';
-                card.setAttribute('data-year', car.year);
-                card.setAttribute('data-miles', car.miles);
-        
-                const imageContainer = document.createElement('div');
-                imageContainer.className = 'relative w-full';
-                imageContainer.style.height = '50vh';
-        
-                car.images.forEach((src, index) => {
-                    const img = document.createElement('img');
-                    img.src = src;
-                    img.alt = `${car.model} view ${index + 1}`;
-                    img.className = 'slider-img w-full h-full object-cover absolute' + (index === 0 ? ' active' : ' hidden');
-                    imageContainer.appendChild(img);
-                });
-        
-                const buttonLeft = document.createElement('button');
-                buttonLeft.className = 'absolute left-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-75 p-1 rounded-full cursor-pointer';
-                buttonLeft.innerHTML = '&#10094;';
-                buttonLeft.addEventListener('click', () => moveSlide(imageContainer, -1));
-        
-                const buttonRight = document.createElement('button');
-                buttonRight.className = 'absolute right-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-75 p-1 rounded-full cursor-pointer';
-                buttonRight.innerHTML = '&#10095;';
-                buttonRight.addEventListener('click', () => moveSlide(imageContainer, 1));
-        
-                imageContainer.appendChild(buttonLeft);
-                imageContainer.appendChild(buttonRight);
-        
-                const info = document.createElement('div');
-                info.className = 'p-4';
-        
-                const currentYear = new Date().getFullYear();
-                const years = currentYear - car.year;
-                const averageMilesPerYear = years > 0 ? Math.round(car.miles / years) : car.miles;
-        
-                info.innerHTML = `<h3 class="font-semibold">${car.model} - ${car.year}</h3>
-                                  <p class="text-gray-600">Type: ${car.type}</p>
-                                  <p class="text-gray-600">Color: ${car.color}</p>
-                                  <p class="text-gray-600">Miles: ${car.miles} mi</p>
-                                  <p class="text-gray-600 miles-per-year">Miles/Year: ${averageMilesPerYear} mi</p>`;
-                card.appendChild(imageContainer);
-                card.appendChild(info);
-        
-                return card;
-            }
-        
-            function moveSlide(container, direction) {
-                let images = container.querySelectorAll('.slider-img');
-                let activeIndex = Array.from(images).findIndex(img => img.classList.contains('active'));
-        
-                images[activeIndex].classList.remove('active');
-                images[activeIndex].classList.add('hidden'); // Make sure the current image is hidden
-        
-                let newIndex = activeIndex + direction;
-                if (newIndex >= images.length) newIndex = 0; // Loop to start if it goes beyond the last image
-                if (newIndex < 0) newIndex = images.length - 1; // Loop to the end if it goes before the first image
-        
-                images[newIndex].classList.remove('hidden');
-                images[newIndex].classList.add('active'); // Show the new active image
-            }
+    const card = document.createElement('div');
+    card.className = 'card border rounded-lg overflow-hidden shadow-lg';
+    card.setAttribute('data-year', car.year);
+    card.setAttribute('data-miles', car.miles);
+
+    const imageContainer = document.createElement('div');
+    imageContainer.className = 'relative w-full';
+    imageContainer.style.height = '50vh';
+
+    car.images.forEach((src, index) => {
+        const img = document.createElement('img');
+        img.src = index === 0 ? src : ''; // Only load the first image initially
+        img.dataset.src = src; // Store the actual source in data-src
+        img.alt = `${car.model} view ${index + 1}`;
+        img.className = 'slider-img w-full h-full object-cover absolute' + (index === 0 ? ' active' : ' hidden');
+        img.loading = 'lazy'; // Enable lazy loading for all images
+        imageContainer.appendChild(img);
+    });
+
+    const buttonLeft = document.createElement('button');
+    buttonLeft.className = 'absolute left-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-75 p-1 rounded-full cursor-pointer';
+    buttonLeft.innerHTML = '&#10094;';
+    buttonLeft.addEventListener('click', () => moveSlide(imageContainer, -1));
+
+    const buttonRight = document.createElement('button');
+    buttonRight.className = 'absolute right-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-75 p-1 rounded-full cursor-pointer';
+    buttonRight.innerHTML = '&#10095;';
+    buttonRight.addEventListener('click', () => moveSlide(imageContainer, 1));
+
+    imageContainer.appendChild(buttonLeft);
+    imageContainer.appendChild(buttonRight);
+
+    const info = document.createElement('div');
+    info.className = 'p-4';
+
+    const currentYear = new Date().getFullYear();
+    const years = currentYear - car.year;
+    const averageMilesPerYear = years > 0 ? Math.round(car.miles / years) : car.miles;
+
+    info.innerHTML = `<h3 class="font-semibold">${car.model} - ${car.year}</h3>
+                      <p class="text-gray-600">Type: ${car.type}</p>
+                      <p class="text-gray-600">Color: ${car.color}</p>
+                      <p class="text-gray-600">Miles: ${car.miles} mi</p>
+                      <p class="text-gray-600 miles-per-year">Miles/Year: ${averageMilesPerYear} mi</p>`;
+    card.appendChild(imageContainer);
+    card.appendChild(info);
+
+    return card;
+}
+
+function moveSlide(container, direction) {
+    let images = container.querySelectorAll('.slider-img');
+    let activeIndex = Array.from(images).findIndex(img => img.classList.contains('active'));
+
+    images[activeIndex].classList.remove('active');
+    images[activeIndex].classList.add('hidden');
+
+    let newIndex = activeIndex + direction;
+    if (newIndex >= images.length) newIndex = 0;
+    if (newIndex < 0) newIndex = images.length - 1;
+
+    images[newIndex].src = images[newIndex].dataset.src; // Load the actual image when it becomes active
+    images[newIndex].classList.remove('hidden');
+    images[newIndex].classList.add('active');
+}
+
         });
         </script>
         
