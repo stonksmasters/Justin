@@ -87,6 +87,20 @@
 .active {
     transform: translateX(0); /* Current active image */
 }
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.img-animate {
+    animation: slideInFromLeft 1s ease-out forwards; /* Adjust timing as necessary */
+}
     </style>
 </head>
 <body>
@@ -99,7 +113,7 @@
     <section id="about" class="bg-white py-10 px-5 md:px-20">
         <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
             <div class="md:w-1/2">
-                <img src="Untitled.png" alt="Your Name" class="rounded-lg shadow-xl w-64 h-64 object-cover" style="width: 250px; height: 250px;">
+                <img src="Untitled.png" alt="Your Name" class="rounded-lg shadow-xl w-64 h-64 object-cover img-animate" style="width: 250px; height: 250px;">
             </div>
             <div class="md:w-1/2 md:pl-12">
                 <h2 class="text-2xl font-semibold mb-2">About Me</h2>
