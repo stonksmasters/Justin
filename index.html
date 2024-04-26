@@ -5,160 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meet John Borg</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        /* Custom Styles */
-        header {
-            background: url('/cars/TrucksFront.JPG') no-repeat center center/cover;
-            background-blend-mode: multiply;
-            color: white;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-            height: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-        }
-        header h1 {
-            font-size: 2.5rem; /* Adjust size as needed */
-            animation: fadeIn 2s ease-in-out;
-        }
-        header p {
-            font-size: 1.2rem;
-            animation: fadeIn 3s ease-in-out;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translatey(20px); }
-            to { opacity: 1; transform: translatey(0); }
-        }
+    <link href="style.css" rel="stylesheet">
 
-        .section h2 {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .card {
-            border: 1px solid #e2e8f0;
-            border-radius: 0.5rem;
-            overflow: hidden;
-        }
-
-        .card img {
-            width: 100%;
-            height: auto;
-        }
-
-        .card p {
-            padding: 1rem;
-            text-align: center;
-        }
-        
-        /* Customizing colors to fit Ascension Honda's branding */
-        body {
-            background-color: #f7f7f7;
-            color: #333;
-        }
-
-        header {
-            background-color: #003366; /* Deep blue, adjust based on actual branding */
-            color: #ffffff;
-        }
-
-        .bg-custom-light {
-            background-color: #f0f4f8; /* Light gray background for sections */
-        }
-
-        footer {
-            background-color: #002244; /* Darker blue for footer */
-            color: #ffffff;
-        }
-        .slider-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    transition: transform 0.5s ease-in-out; /* Animation duration and easing */
-}
-
-.hidden {
-    transform: translateX(100%); /* Start from the right */
-    visibility: hidden; /* Hide non-active images */
-}
-
-.active {
-    transform: translateX(0); /* Current active image */
-}
-@keyframes slideInFromLeft {
-    0% {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-.img-animate {
-    animation: slideInFromLeft 1s ease-out forwards; /* Adjust timing as necessary */
-}
-/* Hero Section Styles */
-.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full height of the viewport */
-    background-size: cover; /* Cover the entire space of the div */
-    background-position: center; /* Center the background image */
-    color: white; /* Text color */
-}
-
-/* Hero Text Container for better text management */
-.hero .text-center {
-    max-width: 600px; /* Max width for the text */
-    padding: 20px; /* Padding around the text */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-}
-
-/* Hero Headings */
-.hero h1 {
-    font-size: 2.5rem; /* Larger text for the main heading */
-    margin-bottom: 20px; /* Space below the heading */
-}
-
-/* Hero Paragraphs */
-.hero p {
-    font-size: 1.2rem; /* Comfortable reading size */
-    margin-bottom: 20px; /* Space below the paragraph */
-}
-
-/* Button Styles */
-.hero a {
-    display: inline-block; /* Allows setting padding and margins */
-    background-color: #007BFF; /* Primary button color */
-    color: white; /* Text color */
-    padding: 10px 20px; /* Padding inside the button */
-    border-radius: 5px; /* Rounded corners */
-    text-decoration: none; /* No underline */
-    font-weight: bold; /* Bold font for better visibility */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-}
-
-/* Hover Effect for Button */
-.hero a:hover {
-    background-color: #0056b3; /* Darker shade on hover */
-}
-
-    </style>
 </head>
 <body>
-    <header class="text-center p-6">
-        <h1>Looking a Car?</h1>
+    <header class="text-center p-6 relative">
+        <nav class="absolute top-0 left-0 right-0 py-2 bg-opacity-80 bg-black text-white flex justify-center space-x-4">
+            <a href="index.html" class="hover:text-gray-300">Home</a>
+            <a href="Hondas.html" class="hover:text-gray-300">Hondas</a>
+            <a href="Cars.html" class="hover:text-gray-300">Our Cars</a>
+            <a href="Appointments.html" class="hover:text-gray-300">Appointments</a>
+        </nav>
+        <h1>Looking for a Car?</h1>
         <p>Meet John Borg - Your Trusted Car Salesman</p>
     </header>
     
-
+    <div class="container mx-auto px-4"></div>
     <section id="about" class="bg-white py-10 px-5 md:px-20">
         <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
             <div class="md:w-1/2">
@@ -185,11 +47,11 @@
         </div>
     </section>
     <section>
-    <div class="hero bg-cover bg-center h-screen" style="background-image: url('/cars/CRV.JPG');">
+    <div class="hero bg-cover bg-center h-screen" style="background-image: url('/cars/CRV/CRV.JPG');">
         <div class="text-center text-white">
-            <h1>Welcome to Our Honda Dealership</h1>
+            <h1>Get Information on Hondas</h1>
             <p>Explore our wide range of Honda vehicles and find your perfect car today.</p>
-            <a href="BestCars.html" class="mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Explore Honda's Top Models</a>
+            <a href="Hondas.html" class="mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Explore Honda's Top Models</a>
         </div>
     </div>
     </section>
@@ -212,6 +74,7 @@
     </section>
     
     
+    </div>
     <footer class="text-center p-6">
         <p>Contact us: (225)302-0512 | John.Borg237@gmail.com</p>
     </footer>

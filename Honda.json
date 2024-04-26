@@ -1,0 +1,250 @@
+[
+    {
+        "model": "Honda Accord",
+        "description": "Experience refined power and advanced technology with the Honda Accord, a top choice in midsize sedans offering exceptional efficiency, cutting-edge safety features, and a luxurious interior designed for comfort.",
+        "highlights": [
+            "Award-winning performance and reliability",
+            "Advanced hybrid powertrain options available",
+            "Premium materials and craftsmanship"
+        ],
+        "features": {
+            "Performance": [
+                "Available 2.0-liter Turbocharged Engine delivering 252 horsepower",
+                "Eco Assist™ System to help improve fuel efficiency",
+                "Adaptive Damper System adjusts suspension response"
+            ],
+            "Technology": [
+                "HondaLink® subscription services for remote access",
+                "Head-Up Display (HUD) projects vital information",
+                "Wireless Apple CarPlay® and Android Auto™ integration"
+            ],
+            "Safety": [
+                "Honda Sensing® Suite includes adaptive cruise control, collision mitigation braking system, and more",
+                "Traffic Sign Recognition (TSR) keeps you aware of road signs",
+                "Multi-Angle Rearview Camera for enhanced visibility"
+            ]
+        },
+        "colors": {
+            "exterior": ["Champagne Frost Pearl", "Crystal Black Pearl", "Lunar Silver Metallic"],
+            "interior": ["Ivory Leather", "Black Leather"]
+        },
+        "trims": {
+            "LX": "The well-equipped base model with Honda Sensing® and LED exterior lighting.",
+            "Sport": "Sporty design elements with 19-inch alloy wheels and a leather-wrapped steering wheel.",
+            "EX-L": "Luxury amenities like leather-trimmed interiors and premium audio system.",
+            "Touring": "Top-of-the-line features including wireless charging and navigation system."
+        },
+        "gallery": [
+            "/images/accord/accord-front.jpg",
+            "/images/accord/accord-interior.jpg",
+            "/images/accord/accord-engine.jpg"
+        ]
+    },
+    {
+        "model": "Honda CR-V",
+        "description": "Discover the perfect balance of style, functionality, and safety with the Honda CR-V. This compact SUV offers spacious interiors, advanced safety features, and robust performance that makes every drive a pleasure.",
+        "highlights": [
+            "Spacious cabin with high-quality materials",
+            "Real Time AWD with Intelligent Control System™",
+            "Honda Satellite-Linked Navigation System™"
+        ],
+        "features": {
+            "Performance": [
+                "1.5-liter Turbocharged Engine with 190 horsepower",
+                "Continuously Variable Transmission (CVT) with Sport Mode",
+                "Available hybrid models for increased fuel efficiency"
+            ],
+            "Technology": [
+                "7-inch Display Audio Touch-Screen",
+                "Smartphone integration for connectivity on the go",
+                "Driver Attention Monitor to detect driver fatigue"
+            ],
+            "Safety": [
+                "Blind Spot Information System (BSI) with Cross Traffic Monitor",
+                "Lane Keeping Assist System (LKAS)",
+                "Collision Mitigation Braking System™ (CMBS)"
+            ]
+        },
+        "colors": {
+            "exterior": ["Obsidian Blue Pearl", "Modern Steel Metallic", "Radiant Red Metallic"],
+            "interior": ["Gray Cloth", "Black Cloth"]
+        },
+        "trims": {
+            "LX": "Essential features including multi-angle rearview camera and LED daytime running lights.",
+            "EX": "Added comforts like heated front seats and dual-zone climate control.",
+            "EX-L": "Enhanced luxury with leather-trimmed seats and power tailgate.",
+            "Touring": "Advanced features including hands-free access and premium audio."
+        },
+        "gallery": [
+            "/images/crv/crv-front.jpg",
+            "/images/crv/crv-interior.jpg",
+            "/images/crv/crv-engine.jpg"
+        ]
+        
+    },
+    {
+        "model": "Honda HR-V",
+        "description": "Navigate the city or your next adventure with the Honda HR-V. Compact yet spacious, this versatile crossover is designed for those who desire the agility of a sedan with the space and capabilities of an SUV. Perfect for urban explorers and small families, the HR-V offers exceptional handling, advanced safety features, and a stylish interior.",
+        "highlights": [
+            "Compact exterior with a surprisingly spacious interior.",
+            "Available Real Time AWD with Intelligent Control System™.",
+            "Eco-friendly performance with excellent fuel economy."
+        ],
+        "features": {
+            "Performance": [
+                "1.8-liter i-VTEC® four-cylinder engine for a balance of power and fuel efficiency.",
+                "Continuously Variable Transmission (CVT) with Sport Mode for a smoother driving experience.",
+                "Eco Assist™ System to help conserve fuel when driving in the city or on highways."
+            ],
+            "Technology": [
+                "7-inch touchscreen display with Apple CarPlay® and Android Auto™ for easy smartphone integration.",
+                "Smart Entry with Walk Away Auto Lock® for added security and convenience.",
+                "Multi-angle rearview camera with dynamic guidelines to assist in tight spaces."
+            ],
+            "Safety": [
+                "Honda Sensing® technologies including Collision Mitigation Braking System™ and Road Departure Mitigation System.",
+                "Vehicle Stability Assist™ (VSA) with Traction Control to enhance stability in adverse driving conditions.",
+                "Advanced Compatibility Engineering™ (ACE) body structure for enhanced occupant protection."
+            ]
+        },
+        "colors": {
+            "exterior": ["Milano Red", "Modern Steel Metallic", "Platinum White Pearl"],
+            "interior": ["Black Cloth", "Grey Cloth"]
+        },
+        "trims": {
+            "LX": "The base model equipped with essential features and Honda Sensing® technologies.",
+            "Sport": "Adds aesthetic enhancements like 18-inch alloy wheels and a leather-wrapped steering wheel.",
+            "EX": "Includes sunroof, heated front seats, and automatic climate control for enhanced comfort.",
+            "EX-L": "Top trim with leather upholstery, satellite navigation, and premium audio system."
+        },
+        "gallery": [
+            "/images/hrv/hrv-front.jpg",
+            "/images/hrv/hrv-interior.jpg",
+            "/images/hrv/hrv-rear.jpg"
+        ]
+    },
+    {
+        "model": "Honda Passport",
+        "description": "Built for the bold, the Honda Passport is your gateway to adventure. With robust performance capabilities and a spacious, refined interior, it stands out as an ideal midsize SUV for off-road adventures and comfortable long-distance travels alike. Whether it's city streets or country trails, the Passport is equipped to explore.",
+        "highlights": [
+            "Robust V6 engine provides ample power for all terrains.",
+            "Spacious interior with ample cargo capacity.",
+            "Advanced all-terrain capabilities with Intelligent Traction Management."
+        ],
+        "features": {
+            "Performance": [
+                "3.5-liter V6 engine delivering 280 horsepower, perfect for towing and off-road handling.",
+                "9-speed automatic transmission with paddle shifters for dynamic driving.",
+                "Intelligent Variable Torque Management™ (i-VTM4®) AWD system."
+            ],
+            "Technology": [
+                "Wireless phone charger and an 8-inch Display Audio Touch-Screen.",
+                "Honda Satellite-Linked Navigation System™ with voice recognition.",
+                "Tri-zone automatic climate control system for customized comfort."
+            ],
+            "Safety": [
+                "Blind Spot Information System (BSI) with Cross Traffic Monitor.",
+                "Rear Cross Traffic Alert and Honda LaneWatch™ for better awareness.",
+                "Standard Honda Sensing® suite of safety and driver-assistive technologies."
+            ]
+        },
+        "colors": {
+            "exterior": ["Deep Scarlet Pearl", "Black Copper Pearl", "Obsidian Blue Pearl"],
+            "interior": ["Black Leather", "Gray Leather"]
+        },
+        "trims": {
+            "Sport": "Standard features with stylish and functional upgrades.",
+            "EX-L": "Enhanced luxury features and technological additions.",
+            "Touring": "Premium features including hands-free access and heated steering wheel.",
+            "Elite": "The ultimate in luxury with all available amenities and advanced technology options."
+        },
+        "gallery": [
+            "/images/passport/passport-front.jpg",
+            "/images/passport/passport-interior.jpg",
+            "/images/passport/passport-engine.jpg"
+        ]
+    },
+    {
+        "model": "Honda Civic",
+        "description": "Revolutionize your driving experience with the Honda Civic, an icon of style, efficiency, and performance. Known for its sleek design and impressive fuel economy, the Civic sets the standard for compact cars with its advanced features and engaging driving dynamics.",
+        "highlights": [
+            "Sleek and sporty exterior design that makes a statement on the road.",
+            "Class-leading fuel efficiency and dynamic performance.",
+            "Cutting-edge technology integration for entertainment and safety."
+        ],
+        "features": {
+            "Performance": [
+                "2.0-liter four-cylinder engine offering 158 horsepower or a 1.5-liter turbocharged engine with up to 180 horsepower.",
+                "Available 6-speed manual transmission or a continuously variable transmission (CVT) for smooth and responsive driving.",
+                "Eco Assist™ system to help optimize fuel consumption for efficient driving."
+            ],
+            "Technology": [
+                "HondaLink® infotainment system with a 7-inch touchscreen display offering Apple CarPlay® and Android Auto™ compatibility.",
+                "Premium audio system with 10 speakers, including a subwoofer, for an immersive audio experience.",
+                "Wireless charging pad and multiple USB connectivity options for enhanced convenience."
+            ],
+            "Safety": [
+                "Honda Sensing® suite includes features such as Adaptive Cruise Control (ACC), Collision Mitigation Braking System™ (CMBS™), and Lane Keeping Assist System (LKAS).",
+                "Advanced airbag system with dual-stage, multiple-threshold front airbags, and SmartVent® front side airbags.",
+                "Driver-assistive technologies including Road Departure Mitigation System (RDM) and Lane Departure Warning (LDW)."
+            ]
+        },
+        "colors": {
+            "exterior": ["Rallye Red", "Platinum White Pearl", "Crystal Black Pearl"],
+            "interior": ["Black Cloth", "Ivory Cloth"]
+        },
+        "trims": {
+            "LX": "Standard base model with Honda Sensing® and LED daytime running lights.",
+            "Sport": "Adds styling enhancements, center exhaust, sport pedals, and sportier driving dynamics.",
+            "EX": "Sunroof, dual-zone automatic climate control, and enhanced safety features.",
+            "Touring": "Top-of-the-line trim with leather seats, navigation system, and all available technological advancements."
+        },
+        "gallery": [
+            "/images/Civic/HondaCivic.JPG",
+            "/images/civic/civic-interior.jpg",
+            "/images/civic/civic-rear.jpg"
+        ]
+    },
+    {
+        "model": "Honda Pilot",
+        "description": "Embark on family adventures with confidence in the Honda Pilot, the ultimate family SUV that combines comfort, style, and safety. With spacious seating for up to eight passengers and ample cargo space, the Pilot is equipped to handle everything from daily commutes to long road trips.",
+        "highlights": [
+            "Spacious three-row seating with premium comfort features.",
+            "All-Wheel Drive capabilities for confident handling in various weather conditions.",
+            "Advanced safety features with the Honda Sensing® suite."
+        ],
+        "features": {
+            "Performance": [
+                "3.5-liter V6 engine producing 280 horsepower, paired with a 9-speed automatic transmission for smooth power delivery.",
+                "Intelligent Traction Management system includes modes for snow, mud, and sand, enhancing off-road and slippery condition capabilities.",
+                "Available Variable Torque Management™ All-Wheel-Drive System for better traction and performance."
+            ],
+            "Technology": [
+                "8-inch Display Audio touchscreen with Apple CarPlay® and Android Auto™ integration for optimal connectivity.",
+                "Tri-zone automatic climate control system ensures comfort for all passengers.",
+                "Rear entertainment system with Blu-Ray player and streaming apps available for family entertainment on long trips."
+            ],
+            "Safety": [
+                "Honda Sensing® technologies include Adaptive Cruise Control (ACC), Collision Mitigation Braking System™ (CMBS™), and Road Departure Mitigation System (RDM).",
+                "Blind Spot Information System (BSI) with Cross Traffic Monitor for enhanced awareness on the road.",
+                "Multi-angle rearview camera with dynamic guidelines for improved parking ease."
+            ]
+        },
+        "colors": {
+            "exterior": ["Steel Sapphire Metallic", "Crystal Black Pearl", "Obsidian Blue Pearl"],
+            "interior": ["Beige Leather", "Black Leather", "Gray Leather"]
+        },
+        "trims": {
+            "LX": "Basic trim with essential features including Honda Sensing® and LED headlights.",
+            "EX": "Adds Smart Entry with Walk Away Auto Lock®, one-touch 2nd-row seats, and remote engine start.",
+            "Touring": "Includes a hands-free access power tailgate, Honda Satellite-Linked Navigation System™, and a premium 10-speaker audio system.",
+            "Elite": "Top-tier trim with panoramic roof, heated steering wheel, and wireless phone charger."
+        },
+        "gallery": [
+            "/images/pilot/pilot-front.jpg",
+            "/images/pilot/pilot-interior.jpg",
+            "/images/pilot/pilot-rear.jpg"
+        ]
+    }
+    
+]

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Cars</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="Hondas.css" rel="stylesheet">
+</head>
+<body>
+
+        <header class="text-center p-6 relative">
+            <nav class="absolute top-0 left-0 right-0 py-2 bg-opacity-80 bg-black text-white flex justify-center space-x-4">
+                <a href="index.html" class="hover:text-gray-300">Home</a>
+                <a href="Hondas.html" class="hover:text-gray-300">Hondas</a>
+                <a href="Cars.html" class="hover:text-gray-300">Our Cars</a>
+                <a href="Appointments.html" class="hover:text-gray-300">Appointments</a>
+            </nav>
+            <h1>Our Cars</h1>
+            <p>Find the Car that Suits You!</p>
+        </header>
+        <div class="container mx-auto px-4">
+        <div>
+            <span>Status:</span>
+            <button class="filter-status" data-filter="all">All</button>
+            <button class="filter-status" data-filter="new">New</button>
+            <button class="filter-status" data-filter="used">Used</button>
+        </div>
+        <div>
+            <span>Type:</span>
+            <button class="filter-type" data-filter="all">All</button>
+            <button class="filter-type" data-filter="car">Cars</button>
+            <button class="filter-type" data-filter="truck">Trucks</button>
+            <button class="filter-type" data-filter="suv">SUVs</button>
+        </div>
+        
+        <section id="car-list" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- Cars will be inserted here by JavaScript -->
+        </section>
+
+        <footer class="text-center my-8">
+            <!-- Footer content -->
+        </footer>
+    </div>
+    <script src="Cars.js"></script> <!-- Link to external JS for functionality -->
+</body>
+</html>

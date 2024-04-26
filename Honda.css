@@ -1,0 +1,85 @@
+/* Hondas.css */
+body {
+    background-color: #f7f7f7; /* Light gray background to keep consistent with the main page */
+}
+
+.model-section {
+    background-color: #ffffff; /* White background for clean look */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    margin-bottom: 20px;
+}
+
+.image-gallery {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Ensures no overflow from images */
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for image change */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-gallery img.hidden {
+    display: none; /* Hides images not active */
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent buttons */
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#prev { left: 10px; }
+#next { right: 10px; }
+
+button:hover {
+    background-color: rgba(255, 255, 255, 1); /* Full white on hover for better visibility */
+}
+/* Model Sections */
+#model-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: white;
+    width: 80%;
+    max-width: 960px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #20232a;
+    font-size: 2rem;
+}
+
+section h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section li {
+    padding: 5px 0;
+}
+
