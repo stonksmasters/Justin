@@ -35,9 +35,18 @@
             "Touring": "Top-of-the-line features including wireless charging and navigation system."
         },
         "gallery": [
-            "/images/accord/accord-front.jpg",
-            "/images/accord/accord-interior.jpg",
-            "/images/accord/accord-engine.jpg"
+            "/cars/Accord/NewAccord.png",
+            "/cars/Accord/NewAccordSide.png",
+            "/cars/Accord/NewHondaBack.png",
+            "/cars/Accord/NewHondaConsole.png",
+            "/cars/Accord/NewHondaDash.png",
+            "/cars/Accord/NewHondaEngine.png",
+            "/cars/Accord/NewHondaInfotainment.png",
+            "/cars/Accord/NewHondaInterior.png",
+            "/cars/Accord/NewHondaInteriorFront.png",
+            "/cars/Accord/NewHondaInteriorRear.png",
+            "/cars/Accord/NewHondaPassenger.png",
+            "/cars/Accord/NewHondaTrunk.png"
         ]
     },
     {
@@ -76,9 +85,19 @@
             "Touring": "Advanced features including hands-free access and premium audio."
         },
         "gallery": [
-            "/images/crv/crv-front.jpg",
-            "/images/crv/crv-interior.jpg",
-            "/images/crv/crv-engine.jpg"
+            "/cars/CRV/CRVFront.png",
+            "/cars/CRV/CRVSide.png",
+            "/cars/CRV/CRVBack.png",
+            "/cars/CRV/CRVInterior.png",
+            "/cars/CRV/CRVInfotainment.png",
+            "/cars/CRV/CRVInteriorDash.png",
+            "/cars/CRV/CRVInteriorRear.png",
+            "/cars/CRV/CRVPassenger.png",
+            "/cars/CRV/CRVDriver.png",
+            "/cars/CRV/CRVConsole.png",
+            "/cars/CRV/CRVTrunk.png",
+            "/cars/CRV/CRVEngine.png"
+           
         ]
         
     },
@@ -118,9 +137,17 @@
             "EX-L": "Top trim with leather upholstery, satellite navigation, and premium audio system."
         },
         "gallery": [
-            "/images/hrv/hrv-front.jpg",
-            "/images/hrv/hrv-interior.jpg",
-            "/images/hrv/hrv-rear.jpg"
+            "/cars/HRV/Front.png",
+            "/cars/HRV/Side.png",
+            "/cars/HRV/Back.png",
+            "/cars/HRV/Wheel.png",
+            "/cars/HRV/Console.png",
+            "/cars/HRV/middle.png",
+            "/cars/HRV/Infotainment.png",
+            "/cars/HRV/Driver.png",
+            "/cars/HRV/Passanger.png",
+            "/cars/HRV/Truck.png",
+            "/cars/HRV/Engine.png"
         ]
     },
     {
@@ -159,9 +186,18 @@
             "Elite": "The ultimate in luxury with all available amenities and advanced technology options."
         },
         "gallery": [
-            "/images/passport/passport-front.jpg",
-            "/images/passport/passport-interior.jpg",
-            "/images/passport/passport-engine.jpg"
+            "/cars/Passport/FrontAngle.png",
+            "/cars/Passport/FrontAngle.png",
+            "/cars/Passport/FrontAngle.png",
+            "/cars/Passport/FrontAngle.png",
+            "/cars/Passport/FrontAngle.png",
+            "/cars/Passport/FrontAngle.png",
+            "/cars/Passport/FrontAngle.png",
+            "/cars/Passport/FrontAngle.png",
+            "/cars/Passport/FrontAngle.png",
+            "/cars/Passport/FrontAngle.png",
+            "/cars/Passport/FrontAngle.png",
+            "/cars/Passport/FrontAngle.png"
         ]
     },
     {
@@ -200,9 +236,18 @@
             "Touring": "Top-of-the-line trim with leather seats, navigation system, and all available technological advancements."
         },
         "gallery": [
-            "/images/Civic/HondaCivic.JPG",
-            "/images/civic/civic-interior.jpg",
-            "/images/civic/civic-rear.jpg"
+            "/cars/Civic/FrontAngle.png",
+            "/cars/Civic/Side.png",
+            "/cars/Civic/BackAngle.png",
+            "/cars/Civic/Wheel.png",
+            "/cars/Civic/Console.png",
+            "/cars/Civic/Infotainment.png",
+            "/cars/Civic/Infotainment2.png",
+            "/cars/Civic/Driver.png",
+            "/cars/Civic/Passanger.png",
+            "/cars/Civic/Rear.png",
+            "/cars/Civic/Trunk.png",
+            "/cars/Civic/Engine.png"
         ]
     },
     {
@@ -241,9 +286,19 @@
             "Elite": "Top-tier trim with panoramic roof, heated steering wheel, and wireless phone charger."
         },
         "gallery": [
-            "/images/pilot/pilot-front.jpg",
-            "/images/pilot/pilot-interior.jpg",
-            "/images/pilot/pilot-rear.jpg"
+            "/cars/Pilot/FrontAngle.png",
+            "/cars/Pilot/Side.png",
+            "/cars/Pilot/BackAngle.png",
+            "/cars/Pilot/Back.png",
+            "/cars/Pilot/Wheel.png",
+            "/cars/Pilot/Console.png",
+            "/cars/Pilot/Infotainment.png",
+            "/cars/Pilot/Driver.png",
+            "/cars/Pilot/middle.png",
+            "/cars/Pilot/Passanger.png",
+            "/cars/Pilot/Rear.png",
+            "/cars/Pilot/Trunk.png",
+            "/cars/Pilot/Engine.png"
         ]
     }
     
