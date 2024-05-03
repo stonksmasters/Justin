@@ -15,8 +15,8 @@
         "year": 2024,
         "miles": "<1000",
         "images": [
-            "/cars/CRV/CRV (2).JPG",
-            "/cars/CRV/CRV (3).JPG"
+            "/cars/CRV/CRVFront.png",
+            "/cars/CRV/CRVSide.png"
         ],
         "model": "Honda CRV",
         "type": "SUV",
